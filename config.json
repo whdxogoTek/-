@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김종태 "
+  },
+  "text": {
+    "more": "\u003cp\u003e\n방향: 공동발의자 -\u003e 대표발의자 \n\u003c/p\u003e\n\n\u003cp\u003e\n노드 크기: 대표발의자 법안에 참여한 공동발의자 국회의원 수 (In-degree)\n\u003c/p\u003e\n\n\u003cp\u003e\n엣지 크기: 공동발의자가 대표발의자 법안들에 참여한 횟수 (Weight)\n\u003c/p\u003e\n\n\u003c/p\u003e\n파티션: 성별\n\u003c/p\u003e\n\n\n\n\n\n",
+    "intro": "대표발의자 국회의원이 낸 법안을 공동발의자 국회의원들 몇명이 지지했는지에\n해당 네트워크 관계입니다. 거대 두 양당이 서로 뭉쳐서 법안을 발의하는 경향이 강합니다. \n ",
+    "title": "대표발의자와 공동발의자 법안 지지 네트워크 "
+  },
+  "legend": {
+    "edgeLabel": "대표발의자 국회의원과 공동발의자 국회의원들 간의 관계",
+    "colorLabel": "성별",
+    "nodeLabel": "대표발의자, 공동발의자"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "발의자 성별",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "발의자 성별"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
